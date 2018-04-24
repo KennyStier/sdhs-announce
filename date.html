@@ -1,0 +1,13 @@
+<style>
+    html {background-color: #950004;
+            color: white;
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<p id="date"></p>
+
+<script type="text/javascript">
+    document.getElementById("date").innerHTML = "It's " + moment().format('dddd, MMMM Do, YYYY');
+</script>
